@@ -23,3 +23,7 @@ persist.vendor.ov13855_sunny.light.lux=370
 persist.vendor.ov13855_sunny.low.lux=385
 persist.vendor.s5k3l8_ofilm.light.lux=367
 persist.vendor.s5k3l8_ofilm.low.lux=379
+
+# Apex
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.apex.updatable=true
